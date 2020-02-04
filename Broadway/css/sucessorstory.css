@@ -1,4 +1,4 @@
-body{background-color:#f1f1f2 !important;}
+body{background-color:#ffffff !important;}
 h3.h3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.5em;}
 
 
@@ -32,7 +32,7 @@ h3.h3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.
 
 width: 609px;
 
-height: 1px;
+height: 2px;
 
 background:
 #fff;
@@ -41,7 +41,7 @@ position: absolute;
 
 left: 34%;
 
-top: 22%;
+top: 20%;
 
 }
 
@@ -86,7 +86,7 @@ top: 22%;
 
 .post-slide6{
     margin: 0 10px;
-    border-left: 8px solid #ff9a04;
+    border-left: 4px solid #ff9a04;
     box-shadow: 0 1px 2px rgba(43,59,93,0.30);
     margin-bottom:2em;
 }
@@ -153,7 +153,7 @@ top: 22%;
     text-decoration: none;
 }
 .post-slide6 .post-review{
-    padding: 35px 20px 25px;
+    padding: 54px 34px 24px;
     background: #fff;
     position: relative;
 }
@@ -215,14 +215,14 @@ top: 22%;
 
 .post-review-post-arrow{
     width: 1px;
-border-top: 28px solid #ff9a04;
-border-right: 28px solid transparent;
-border-left: 28px solid transparent;
-border-bottom: 28px solid transparent;
+border-top: 20px solid #ff9a04;
+border-right: 20px solid transparent;
+border-left: 20px solid transparent;
+border-bottom: 20px solid transparent;
 transform: rotate(-45deg);
 position: absolute;
-left: 92%;
-top: 88%;
+left: 94%;
+top:93%;
 z-index: 999;
 }
 .owl-theme .owl-controls .owl-page span{
@@ -248,7 +248,9 @@ left: 87%;
 top: 31%;
 }
 
-
+.subject-top-padding-inner-text p{
+    margin-top:0px !important;
+}
 
 
 
@@ -268,9 +270,25 @@ top: 31%;
     font-size: 18px;
     top: 50%;
     left: 50%;
-    transform: translate(54%, 282%) !important;
+    transform: translate(69%, 296%) !important;
     color: 
     #00577d;
+}
+.student-arrow {
+    width: 1px;
+    border-top: 28px solid 
+transparent;
+border-right: 28px solid
+#eff4f8;
+border-left: 28px solid
+transparent;
+border-bottom: 28px solid
+    transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 4%;
+    top: 23%;
+    z-index: 999;
 }
 
 	.student-owl-more-video-testimonials-text span {
@@ -323,7 +341,7 @@ border-top-color:
     width: 30px;
     height: 30px;
     left: 50%;
-    top: 219px;
+    top: 24%;
 }
 .success-story-text::before {
     content: "";
@@ -341,7 +359,7 @@ border-top: 20px solid
     width: 30px;
     height: 30px;
     left: 50%;
-    top: 218px;
+    top: 226px;
     margin-left: -20px;
     z-index: 1010;
 }
@@ -390,6 +408,57 @@ top: 36%;
     text-align: center !important;
     position: relative;
 
+}
+.our-program-structure{
+    display: none;
+}
+.our-precious-clients-div-containt p::after {
+    content: '';
+    width: 267px;
+    height: 1px;
+    background: 
+    #2f506c;
+    position: absolute;
+    left: 14%;
+    top: 29%;
+}
+.our-precious-clients-patners::after {
+    content: '';
+    height: 1px;
+    width: 115px;
+    background: 
+    red;
+    top: 29%;
+    left: 14%;
+    position: absolute;
+}
+.our-precious-clients-patners ul li {
+    display: none;
+}
+.our-precious-clients-patners::before {
+    content: '';
+    height: 1px;
+    width: 96px;
+    background: 
+    #ff9a04;
+    top: 90%;
+    left: 41%;
+    position: absolute;
+}
+.input-group-append {
+    margin-left: 232px;
+    margin-top: -50px;
+}
+.updates-and-offers input {
+    border-radius: 0px;
+    padding: 12px 16px;
+    margin-left: -8px;
+}
+.become-an-instructor{
+    margin-left: 20px;
+}
+.footer-mid-section ul{
+    display: inline;
 }
 
 

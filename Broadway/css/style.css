@@ -1,4 +1,7 @@
-
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #ffffff !important;
+}
 
 .header-top{
     background-color: #182937;;
@@ -24,7 +27,7 @@ header{
 	padding: 20px 0px;
 	top:5%;
 	left:0;
-	z-index: 1024;
+	z-index: 1248;
 
 }
 .blue{
@@ -655,6 +658,368 @@ top: -35%;
 }
 
 
+/*.................................................................................................................*/
+/*.................................................................................................................*/
+/*.........................................Our program structure........................................................................*/
+/*.................................................................................................................*/
+/*.................................................................................................................*/
+/*.................................................................................................................*/
+
+
+
+.our-program-structure{
+	padding: 40px;
+	background: #fff;
+}
+
+
+.our-program-structure-left-content{
+	
+	background: #ffffff;
+	padding: 1px 10px}
+
+.our-program-structure-left-content-position{
+	margin: 65px 5px;
+	position: relative;
+}
+.our-program-structure-left-content-position p{
+	font-size: 12px;
+}
+.our-program-structure-left-content-position h4:after{
+	width: 201px;
+	height: 1px;
+	background: red;
+	position: absolute;
+	content: '';
+	top: 101%;
+	left: 0%;
+}
+.our-program-structure-left-content-position h4:before{
+	width:54px;
+	height: 4px;
+	background:green;
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0%;
+}
+.our-program-structure-left-content i{
+	font-weight: 900;
+	font-size: 74px;
+	padding-left: 0px;
+}
+
+
+/*........................... first row. start..........................................................*/
+.program-structure{ position: relative;
+padding:0px 20px; }
+/*................................program-structure-row1.......col1.................................... */
+.program-structure-row1{ position: relative; }
+.program-structure-left{ position: absolute; height:104px; width:148px !important; background:#fff; margin-top: 0px; margin-left:-20px; }
+.program-structure-right{ position: absolute; height: 104px; width:148px; background:#eff4f8; margin-top: 0px; margin-left:-8px;  border:1px solid #b9cfe1; }
+.program-structure-arrow{ position: absolute; border-left: 24px solid transparent; border-bottom: 24px solid transparent; 
+	border-right:24px solid transparent; border-top: 24px solid #eff4f8;background-color:transparent;transform: rotate(90deg);
+	margin-left: -67px;	width: 30px;height: 30px;left: 148px;top: 28px;z-index:999;}
+.program-structure-row1:hover .program-structure-right{	height:104px;	width:168px;	background:#ff9a04; position: absolute;
+	z-index: 999;	margin-left: -30px; border:1px solid #b9cfe1; z-index: 999} 
+.program-structure-row1:hover .program-structure-arrow{position: absolute;border-left: 24px solid transparent;
+	border-bottom: 24px solid transparent;border-right: 24px solid transparent;border-top: 24px solid #ff9a04;
+	background-color:transparent;transform: rotate(90deg);width: 30px;height: 30px;left: 126px;top: 30px;z-index: 1024;}
+.program-structure-row1:hover .program-structure-left{	background: #fff;}
+.program-structure-left a img{	margin-top: 20px;	margin-left: 20px;	width:44px; }
+.program-structure-row1:hover .program-structure-left a img{	margin-top: 15px;	margin-left:1px;	width:54px; color: #ff9a04}
+.program-structure-right p{	text-align: center;	margin-top:36px;	font-weight: 700;	font-size: 18px;}
+.program-structure-row1:hover .program-structure-right p{	text-align: center;	margin-top: 36px;	font-weight: 800;	font-size: 20px;}
+
+
+/*................................program-structure-row1.......col2.................................... */
+.program-structure-row2{ position: relative; }
+.program-structure-left-row2{ position: absolute; height: 104px; width: 148px; background: #fff; margin-top: 0px; margin-left:4px; }
+.program-structure-right-row2{ position: absolute; height: 104px; width: 148px; background:#eff4f8; margin-top: 0px; margin-left:16px; border:1px solid #b9cfe1; }
+.program-structure-arrow-col2{ position: absolute; border-left: 24px solid transparent; border-bottom: 24px solid transparent; 
+	border-right:24px solid transparent; border-top: 24px solid #eff4f8;background-color:transparent;transform: rotate(90deg);
+	margin-left: -31px;	width: 30px;height: 30px;left: 136px;top: 30px;}
+.program-structure-row2:hover .program-structure-right-row2{	height: 104px;	width:168px;	background:#ff9a04; position: absolute;
+	z-index: 999;	margin-left:-10px; border:1px solid #b9cfe1;} 
+.program-structure-row2:hover .program-structure-arrow-col2{position: absolute;border-left: 24px solid transparent;
+	border-bottom: 24px solid transparent;border-right: 24px solid transparent;border-top: 24px solid #ff9a04;
+	background-color:transparent;transform: rotate(90deg);width: 30px;height: 30px;left: 110px;top: 30px;z-index: 1024;}
+.program-structure-row2:hover .program-structure-left-row2{	background:#fff;}
+.program-structure-left-row2 a i{	margin-top: 10px;	margin-left: 30px;	font-size: 68px}
+.program-structure-row2:hover .program-structure-left-row2 a i{	margin-top:8px;	margin-left: 5px;	font-size: 74px; color: #ff9a04}
+.program-structure-right-row2 p{	text-align: center;	margin-top: 17px;	font-weight: 700;	font-size: 20px;}
+.program-structure-row2:hover .program-structure-right-row2 p{	text-align: center;	margin-top:18px;	font-weight: 800;	font-size: 24px;}
+/*................................program-structure-row1.......col3.................................... */
+
+
+.program-structure-row3{ position: relative; }
+.program-structure-left-row3{ position: absolute; height: 104px; width: 148px; background: #ffffff; margin-top: 0px; margin-left:30px; }
+.program-structure-right-row3{ position: absolute; height: 104px; width: 148px; background:#eff4f8; margin-top: 0px; margin-left:44px; border:1px solid #b9cfe1; }
+.program-structure-arrow-col3{ position: absolute; border-left: 24px solid transparent; border-bottom: 24px solid transparent; 
+	border-right:24px solid transparent; border-top: 24px solid #eff4f8;background-color:transparent;transform: rotate(90deg);
+	margin-left: -20px;	width: 30px;height: 30px;left: 153px;top:28px;z-index: 999;}
+.program-structure-row3:hover .program-structure-right-row3{	height: 104px;	width:168px;	background:#ff9a04; position: absolute;
+	z-index: 999;	margin-left:20px; border:1px solid #b9cfe1;} 
+.program-structure-row3:hover .program-structure-arrow-col3{position: absolute;border-left: 24px solid transparent;
+	border-bottom: 24px solid transparent;border-right: 24px solid transparent;border-top: 24px solid #ff9a04;
+	background-color:transparent;transform: rotate(90deg);width: 30px;height: 30px;left: 130px;top:30px;z-index: 1024;}
+.program-structure-row3:hover .program-structure-left-row3{	background: #fff;}
+.program-structure-left-row3 a i{	margin-top: 10px;	margin-left: 30px;	font-size: 68px;}
+.program-structure-row3:hover .program-structure-left-row3 a i{	margin-top: 8px;	margin-left: 10px;	font-size: 74px;;}
+.program-structure-right-row3 p{	text-align: center;	margin-top: 20px;	font-weight: 700;	font-size: 20px;}
+.program-structure-row3:hover .program-structure-right-row3 p{	text-align: center;	margin-top: 15px;	font-weight: 800;	font-size: 24px;}
+/*........................... first row. end..........................................................*/
+
+
+/*........................... second row start...........................................................*/
+
+/*...............................second row....col1... start....................................*/
+.program-structure-row2-col1{ 	position: relative;}
+.program-structure-row2-left1{	height: 104px;	width: 148px;	background: #eff4f8;	position: absolute;	margin-top: 105px;	margin-left:0px; border:1px solid #b9cfe1;}
+.program-structure-row2-right1{	height: 104px;	width: 148px;	background:#ffffff;	position: absolute;	margin-top: 105px;	margin-left:5px;text-align: center;}
+.program-structure-row2-col1-arrow{position: absolute;border-left: 24px solid #eff4f8;border-bottom: 24px solid transparent;border-right: 24px solid transparent;
+border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left: 147px;top: 134px;z-index:999;}
+.program-structure-row2-col1:hover .program-structure-row2-left1{	height: 104px;	width: 168px;	background:#ff9a04;	position: absolute;
+	margin-top:105px;	margin-left:0px;text-align: center; border:1px solid #b9cfe1; z-index:999}
+.program-structure-row2-col1:hover .program-structure-row2-right1{	text-align: center;	background: #fff} 
+.program-structure-row2-col1:hover .program-structure-row2-col1-arrow{position: absolute;border-left: 24px solid #ff9a04;border-bottom: 24px solid transparent;
+border-right: 24px solid transparent;border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:166px;
+top: 134px;z-index:999}
+.program-structure-row2-left1 p{	font-weight: 700;	font-size: 18px;	margin-top: 8px;	margin-left: 20px;}
+.program-structure-row2-col1:hover .program-structure-row2-left1 p{	font-weight: 700;	font-size: 20px;	margin-top: 18px;	margin-left: 3px;}
+.program-structure-row2-right1 i{	margin-top: 20px;	margin-left: 5px;	font-weight: 700;	font-size: 48px;}
+.program-structure-row2-col1:hover .program-structure-row2-right1 i{	margin-top: 20px;	margin-left:30px;	font-weight: 700;	font-size: 64px;}
+/*...............................second row....col1... End....................................*/
+
+
+
+/*...............................second row....col2... start....................................*/
+.program-structure-row2-col2{ 	position: relative;}
+.program-structure-row2-col2-left1{	height: 104px;	width: 148px;	background:#eff4f8;	position: absolute;	margin-top: 105px;	margin-left:11px; border:1px solid #b9cfe1;}
+.program-structure-row2-col2-right1{	height: 104px;	width: 148px;	background:#fff;	position: absolute;	margin-top: 104px;	margin-left:17px;text-align: center;}
+.program-structure-row2-col2-arrow{position: absolute;border-left: 24px solid #eff4f8;border-bottom: 24px solid transparent;border-right: 24px solid transparent;
+border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left: 158px;top: 134px;z-index:999;}
+.program-structure-row2-col2:hover .program-structure-row2-col2-left1{	height: 104px;	width: 168px;	background:#ff9a04;	position: absolute;
+	margin-top:104px;	margin-left:10px;	z-index:999;	text-align: center;}
+.program-structure-row2-col2:hover .program-structure-row2-col2-right1{	text-align: center;	background:#fff; margin-right: -10px;} 
+.program-structure-row2-col2:hover .program-structure-row2-col2-arrow{position: absolute;border-left: 24px solid #ff9a04;border-bottom: 24px solid transparent;
+border-right: 24px solid transparent;border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:176px;
+top: 132px;z-index: 999;}
+.program-structure-row2-col2-left1 p{	font-weight: 700;	font-size: 20px;	margin-top: 5px;	margin-left:15px;}
+.program-structure-row2-col2:hover .program-structure-row2-col2-left1 p{	font-weight: 700;	font-size: 21px;	margin-top:5px;	margin-left: 5px;}
+.program-structure-row2-col2-right1 i{	margin-top: 20px;	margin-left:10px;	font-weight: 700;	font-size: 54px;}
+.program-structure-row2-col2:hover .program-structure-row2-col2-right1 i{	margin-top:15px;	margin-left: 34px;	font-weight: 700;	font-size: 64px;}
+/*...............................second row....col2...End....................................*/
+
+
+/*...............................second row....col3... start....................................*/
+.program-structure-row2-col3{ 	position: relative;}
+.program-structure-row2-col3-left1{	height: 104px;	width: 148px;	background: #eff4f8;	position: absolute;	margin-top: 104px;	margin-left:24px; border:1px solid #b9cfe1;}
+.program-structure-row2-col3-right1{	height: 104px;	width: 148px;	background:#fff;	position: absolute;	margin-top: 104px;	margin-left:31px;text-align: center;}
+.program-structure-row2-col3-arrow{position: absolute;border-left: 24px solid #eff4f8;border-bottom: 24px solid transparent;border-right: 24px solid transparent;
+border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left: 170px;top: 134px;}
+.program-structure-row2-col3:hover .program-structure-row2-col3-left1{	height: 104px;	width: 168px;	background:#ff9a04;	position: absolute;
+	margin-top:104px;	margin-left:22px;	z-index:999;	text-align: center;}
+.program-structure-row2-col3:hover .program-structure-row2-col3-right1{	text-align: center;	background:#fff;}
+.program-structure-row2-col3:hover .program-structure-row2-col3-arrow{position: absolute;border-left: 24px solid #ff9a04;border-bottom: 24px solid transparent;
+border-right: 24px solid transparent;border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:185px;
+top: 132px;z-index: 999;}
+.program-structure-row2-col3-left1 p{	font-weight: 700;	font-size: 20px;	margin-top: 8px;	margin-left: 20px;}
+.program-structure-row2-col3:hover .program-structure-row2-col3-left1 p{	font-weight: 700;	font-size: 22px;	margin-top:3px;	margin-left: 8px;}
+.program-structure-row2-col3-right1 i{	margin-top:15px;	margin-left: 15px;	font-weight: 700;	font-size:64px;}
+.program-structure-row2-col3:hover .program-structure-row2-col3-right1 i{	margin-top: 15px;	margin-left:20px;	font-weight: 700;	font-size: 74px;}
+/*...............................second row....col3...End....................................*/
+
+/*........................... second row end...........................................................*/
+
+/*...........................Third row start...........................................................*/
+
+
+
+
+/*........................... third row. start..........................................................*/
+.program-structure3{ position: relative; margin-top: 254px; }
+/*................................program-structure-row1.......col1.................................... */
+.program-structure-row3-col1{ position: relative; }
+.program-structure-row3-col1-left{ position: absolute; height: 104px; width: 148px; background: #ffffff; margin-top: -44px; margin-left:0px; }
+.program-structure-row3-col1-right{ position: absolute; height: 104px; width: 148px; background:#eff4f8; margin-top: -44px; margin-left:6px;border:1px solid #b9cfe1;}
+.program-structure-row3-col1-arrow{ position: absolute; border-left: 24px solid transparent; border-bottom: 24px solid transparent; 
+	border-right:24px solid transparent; border-top: 24px solid #eff4f8;background-color:transparent;transform: rotate(90deg);
+	margin-left: -20px;	width: 30px;height: 30px;left: 122px;top: -16px;}
+
+	
+.program-structure-row3-col1:hover .program-structure-row3-col1-right{	height: 104px;	width:168px;	background:#ff9a04; position: absolute;
+	z-index: 999;	margin-left: -15px;} 
+
+.program-structure-row3-col1:hover .program-structure-row3-col1-arrow{position: absolute;border-left: 24px solid transparent;
+	border-bottom: 24px solid transparent;border-right: 24px solid transparent;border-top: 24px solid #ff9a04;
+	background-color:transparent;transform: rotate(90deg);width: 30px;height: 30px;left: 102px;top:-15px;z-index: 1024;}
+.program-structure-row3-col1:hover .program-structure-row3-col1-left{	background: #fff;}
+.program-structure-row3-col1-left a img{	margin-top: 20px;	margin-left: 20px;	width:44px;}
+.program-structure-row3-col1:hover .program-structure-row3-col1-left a img{	margin-top: 10px;	margin-left: 1px;	width: 54px;}
+.program-structure-row3-col1-right p{	text-align: center;	margin-top: 34px;	font-weight: 700;	font-size: 20px;}
+.program-structure-row3-col1:hover .program-structure-row3-col1-right p{	text-align: center;	margin-top:34px;	font-weight: 800;	font-size: 22px;}
+
+
+
+/*................................program-structure-row3.......col2.................................... */
+.program-structure-row3-col2{ position: relative; }
+.program-structure-row3-col2-left{ position: absolute; height: 104px; width: 148px; background: #fff; margin-top: -44px; margin-left:12px; }
+.program-structure-row3-col2-right{ position: absolute; height: 104px; width: 148px; background:#eff4f8; margin-top: -44px; margin-left:16px; border:1px solid #b9cfe1;}
+
+.program-structure-row3-col2-arrow{ position: absolute; border-left: 24px solid transparent; border-bottom: 24px solid transparent; 
+	border-right:24px solid transparent; border-top: 24px solid #eff4f8;background-color:transparent;transform: rotate(90deg);
+	margin-left: -20px;	width: 30px;height: 30px;left: 134px;top: -14px;z-index: 999;}
+
+.program-structure-row3-col2:hover .program-structure-row3-col2-right{	height: 104px;	width: 168px;	background:#ff9a04; position: absolute;
+	z-index: 999;	margin-left: -5px;} 
+.program-structure-row3-col2:hover .program-structure-row3-col2-arrow{position: absolute;border-left: 24px solid transparent;
+	border-bottom: 24px solid transparent;border-right: 24px solid transparent;border-top: 24px solid #ff9a04;
+	background-color:transparent;transform: rotate(90deg);width: 30px;height: 30px;left: 112px;top:-15px;z-index:999;}
+
+.program-structure-row3-col2:hover .program-structure-row3-col2-left{	background: #fff;}
+
+.program-structure-row3-col2-left a i{	margin-top: 5px;	margin-left: 20px;	font-size: 64px}
+.program-structure-row3-col2:hover .program-structure-row3-col2-left a i{	margin-top:5px;	margin-left:5px;	font-size: 74px;}
+.program-structure-row3-col2-right p{	text-align: center;	margin-top: 30px;	font-weight: 700;	font-size: 20px;}
+.program-structure-row3-col2:hover .program-structure-row3-col2-right p{	text-align: center;	margin-top: 20px;	font-weight: 800;	font-size: 24px;}
+/*................................program-structure-row1.......col3.................................... */
+
+
+
+
+.program-structure-row3-col3{ position: relative; }
+.program-structure-row3-col3-left{ position: absolute; height: 104px; width: 148px; background:#fff; margin-top:-45px; margin-left:24px; }
+.program-structure-row3-col3-right{ position: absolute; height: 104px; width: 148px; background:#eff4f8; margin-top: -45px; margin-left:29px; border:1px solid #b9cfe1;}
+.program-structure-row3-col3-arrow{ position: absolute; border-left: 24px solid transparent; border-bottom: 24px solid transparent; 
+	border-right:24px solid transparent; border-top: 24px solid #eff4f8;background-color:transparent;transform: rotate(90deg);
+	margin-left: -20px;	width: 30px;height: 30px;left: 145px;top: -16px;z-index: 999;}
+
+.program-structure-row3-col3:hover .program-structure-row3-col3-right{	height: 104px;	width:168px;	background:#ff9a04; position: absolute;
+	z-index: 999;	margin-left:10px;} 
+.program-structure-row3-col3:hover .program-structure-row3-col3-arrow{position: absolute;border-left: 24px solid transparent;
+	border-bottom: 24px solid transparent;border-right: 24px solid transparent;border-top: 24px solid #ff9a04;
+	background-color:transparent;transform: rotate(90deg);width: 30px;height: 30px;left: 126px;top: -14px;z-index:999;}
+.program-structure-row3-col3:hover .program-structure-row3-col3-left{	background: #fff;}
+.program-structure-row3-col3-left a i{	margin-top: 10px;	margin-left: 10px;	font-size: 44px;}
+.program-structure-row3-col3:hover .program-structure-row3-col3-left a i{	margin-top: 10px;	margin-left: 5px;	font-size: 74px;;}
+.program-structure-row3-col3-right p{	text-align: center;	margin-top: 20px;	font-weight: 700;	font-size: 20px;}
+.program-structure-row3-col3:hover .program-structure-row3-col3-right p{	text-align: center;	margin-top: 20px;	font-weight: 800;	font-size: 24px;}
+/*........................... first row. end..........................................................*/
+
+
+
+
+/*........................... Third row  End...........................................................*/
+
+
+
+/*...............................fourth row....col1... start....................................*/
+.program-structure4{ position: relative; margin-top:1px; }
+.program-structure-row4-col1{ 	position: relative;}
+.program-structure-row4-col1-left{	height: 104px;	width: 148px;	background:#eff4f8;	position: absolute;	margin-top:60px;	margin-left:0px; border:1px solid #b9cfe1;}
+.program-structure-row4-col1-right{	height: 104px;	width: 148px;	background:#fff;	position: absolute;	margin-top:60px;	margin-left:5px;	text-align: center;}
+.program-structure-row4-col1-arrow{position: absolute;border-left: 24px solid #eff4f8;border-bottom: 24px solid transparent;border-right: 24px solid transparent;
+border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left: 146px;top:90px;z-index:999;}
+.program-structure-row4-col1:hover .program-structure-row4-col1-left{	height: 104px;	width:168px;	background:#ff9a04;	position: absolute;
+	margin-top:60px;	margin-left:1px;	z-index:999;	text-align: center;}
+.program-structure-row4-col1:hover .program-structure-row4-col1-right{	text-align: center;	background: #fff} 
+.program-structure-row4-col1:hover .program-structure-row4-col1-arrow{position: absolute;border-left: 24px solid #ff9a04;border-bottom: 24px solid transparent;
+border-right: 24px solid transparent;border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:168px;
+top:90px;z-index: 999;}
+.program-structure-row4-col1-left p{	font-weight: 700;	font-size: 20px;	margin-top:8px;	margin-left:20px;}
+.program-structure-row4-col1:hover .program-structure-row4-col1-left p{	font-weight: 700;	font-size: 22px;	margin-top:5px;	margin-left: 8px;}
+.program-structure-row4-col1-right i{	margin-top:20px;	margin-left:15px;	font-weight: 700;	font-size: 54px;}
+.program-structure-row4-col1:hover .program-structure-row4-col1-right i{	margin-top: 20px;	margin-left:25px;	font-weight: 700;	font-size: 64px;}
+/*...............................second row....col1... End....................................*/
+
+
+/*...............................second row....col2... start....................................*/
+.program-structure-row4-col2{ 	position: relative;}
+.program-structure-row4-col2-left{	height: 104px;	width: 148px;	background: #eff4f8;	position: absolute;	margin-top:60px;	margin-left:12px; border:1px solid #b9cfe1;}
+.program-structure-row4-col2-right{	height: 104px;	width: 148px;	background:#ffffff;	position: absolute;	margin-top:60px;	margin-left:17px;text-align: center;}
+.program-structure-row4-col2-arrow{position: absolute;border-left: 24px solid #eff4f8;border-bottom: 24px solid transparent;border-right: 24px solid transparent;
+border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:158px;top:88px;z-index:999;}
+.program-structure-row4-col2:hover .program-structure-row4-col2-left{	height: 104px;	width:168px;	background:#ff9a04;	position: absolute;
+	margin-top:60px;	margin-left:12px;	z-index:999;	text-align: center;}
+.program-structure-row4-col2:hover .program-structure-row4-col2-right{	text-align: center;	background: #fff;} 
+.program-structure-row4-col2:hover .program-structure-row4-col2-arrow{position: absolute;border-left: 24px solid #ff9a04;border-bottom: 24px solid transparent;
+border-right: 24px solid transparent;border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:178px;
+top: 90px;z-index: 999;}
+.program-structure-row4-col2-left p{	font-weight: 700;	font-size: 20px;	margin-top:8px;	margin-left: 20px;}
+.program-structure-row4-col2:hover .program-structure-row4-col2-left p{	font-weight: 700;	font-size: 22px;	margin-top:5px;	margin-left: 5px;}
+.program-structure-row4-col2-right i{	margin-top: 15px;	margin-left: 10px;	font-weight: 700;	font-size: 54px;}
+.program-structure-row4-col2:hover .program-structure-row4-col2-right i{	margin-top: 15px;	margin-left: 30px;	font-weight: 700;	font-size: 64px;}
+/*...............................second row....col2...End....................................*/
+
+/*...............................second row....col3... start....................................*/
+.program-structure-row4-col3{ 	position: relative;}
+.program-structure-row4-col3-left{	height: 104px;	width: 148px;	background: #eff4f8;	position: absolute;	margin-top:59px;	margin-left:24px; border:1px solid #b9cfe1;}
+
+.program-structure-row4-col3-right{	height: 104px;	width: 148px;	background:#ffffff;	position: absolute;	margin-top:59px;	margin-left:29px;text-align: center;}
+
+.program-structure-row4-col3-arrow{position: absolute;border-left: 24px solid #eff4f8;border-bottom: 24px solid transparent;border-right: 24px solid transparent;
+border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left: 170px;top:84px;z-index:999;}
+
+
+.program-structure-row4-col3:hover .program-structure-row4-col3-left{	height: 104px;	width:168px;	background:#ff9a04;	position: absolute;
+	margin-top:59px;	margin-left:25px;	z-index:999;	text-align: center;}
+
+.program-structure-row4-col3:hover .program-structure-row4-col3-right{	text-align: center;	background: #fff;} 
+
+.program-structure-row4-col3:hover .program-structure-row4-col3-arrow{position: absolute;border-left: 24px solid #ff9a04;border-bottom: 24px solid transparent;
+border-right: 24px solid transparent;border-top: 24px solid transparent;transform: rotate(0deg);width: 30px;height: 30px;left:190px;
+top:88px;z-index: 999;}
+
+.program-structure-row4-col3-left p{	font-weight: 700;	font-size: 20px;	margin-top: 10px;	margin-left: 20px;}
+
+.program-structure-row4-col3:hover .program-structure-row4-col3-left p{	font-weight: 700;	font-size: 22px;	margin-top:4px;	margin-left: 30px; text-align: left;}
+
+.program-structure-row4-col3-right i{	margin-top: 20px;	margin-left: 10px;	font-weight: 700;	font-size: 54px;}
+
+.program-structure-row4-col3:hover .program-structure-row4-col3-right i{	margin-top: 20px;	margin-left:15px;	font-weight: 700;	font-size: 64px;}
+/*...............................second row....col3...End....................................*/
+
+
+
+
+/*........................... first row...........................................................*/
+/*........................... first row...........................................................*/
+/*........................... first row...........................................................*/
+/*........................... first row...........................................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -705,7 +1070,7 @@ border-top: 20px solid
 width: 30px;
 height: 30px;
 left: 954px;
-top: 190px;
+top: 174px;
 margin-left: -20px;
 z-index: 1010;
 }
@@ -721,7 +1086,7 @@ z-index: 1010;
      width: 30px;
     height: 30px;
     left: 954px;
-    top: 192px;
+    top: 175px;
     z-index:999;
     
 }
@@ -893,7 +1258,7 @@ p{
 .footer-section{
 	background: #020304;
 	color: #707979;
-	height: 40px;
+	
 
 }
 
@@ -943,7 +1308,7 @@ p{
   background-color: red;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 8px 16px;
   border-radius: 4px;
 }
 
@@ -991,9 +1356,20 @@ p{
 				.upcoming-classes .col-md-6{
 					text-align: center;
 
-
-
 				}
+				.upcoming-classes{
+					display: none;
+				}
+				.enquiry-form {
+    background: 
+#222a2e;
+padding: 22px 45px 36px 45px;
+color:
+    #fff;
+    margin-top: 20px;
+    margin-left: -18px;
+    margin-right: 5px;
+}
 			.navbar-toggler-icon{background:#428bca; margin-left: 282px; margin-top: -131px;}
 			.Welcome-Broadway{height: auto;	}
 			.header-top{
